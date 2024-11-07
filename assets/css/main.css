@@ -80,7 +80,7 @@ nav > ul > li > a:active {
   /* 
    * When closed, preserve vertical padding.
    * This makes the opening animation look like it's happening in one dimension;
-   * i.e.: The box "slides out" instead of "expanding into existance".
+   * i.e.: The box "slides out" instead of "expanding into existence".
    */
   padding: 0.8em 0;
   opacity: 0;
@@ -248,8 +248,8 @@ body {
   font-size: 1.15em;
   margin: 0.5em;
 }
-.studyinfo details summary::before{
-  content: ' + ';
+.studyinfo details summary::before {
+  content: " + ";
   display: inline-block;
   font-weight: normal;
   margin-right: 1em;
@@ -263,7 +263,7 @@ body {
   background-color: lightblue;
 }
 .studyinfo details[open] summary::before {
-  content: ' - ';
+  content: " - ";
 }
 
 /* font style for summary */
@@ -358,11 +358,12 @@ footer {
   margin-top: 100px;
 }
 
-.footer-top, .footer-bot {
-     /*Set padding left and right of containers, and containers in footer as flex-box */
-     padding-left: 15%;
-     padding-right: 15%;
-     display: flex;
+.footer-top,
+.footer-bot {
+  /*Set padding left and right of containers, and containers in footer as flex-box */
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
 }
 
 .footer-top {
@@ -474,86 +475,95 @@ footer {
 */*{background-color: rgba(255, 0, 0, 0.174);}*/
 
 .overview {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: flex-start;
-    line-height: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: flex-start;
+  line-height: 2em;
 }
 
 #h1Wrapper {
-    /*Center h1 in a flexbox */
-    height: 70px;
-    display:flex;
-    align-items: center;
+  /*Center h1 in a flexbox */
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
-.oStudiested, .oVarighet, .oOmfang, .oStudiepoeng, 
-.oStudiestart, .oUndervisningsspråk, .oStudieplasser {
-    border-top: solid black;
-    border-width: 0.01em;
-    padding: 2%;
-    padding-left: 0;
-    margin: 10px 10px 10px 0;
-    flex-basis: calc(22% - 5px);
+.oStudiested,
+.oVarighet,
+.oOmfang,
+.oStudiepoeng,
+.oStudiestart,
+.oUndervisningsspråk,
+.oStudieplasser {
+  border-top: solid black;
+  border-width: 0.01em;
+  padding: 2%;
+  padding-left: 0;
+  margin: 10px 10px 10px 0;
+  flex-basis: calc(22% - 5px);
 }
 
-.oHeader, .oBachelor {
-    margin-left: 10%;
+.oHeader,
+.oBachelor {
+  margin-left: 10%;
 }
 
 .oBachelor {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .oInfo {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 
 .oHead {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
-    .overview {
-        display: flex;
-        flex-direction: column;
-        line-height: 2em;
-        margin-left: 5%;
-        width: 90%;
-    }
+  .overview {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    margin-left: 5%;
+    width: 90%;
+  }
 
-    .oStudiested, .oVarighet, .oOmfang, .oStudiepoeng, 
-    .oStudiestart, .oUndervisningsspråk, .oStudieplasser {
+  .oStudiested,
+  .oVarighet,
+  .oOmfang,
+  .oStudiepoeng,
+  .oStudiestart,
+  .oUndervisningsspråk,
+  .oStudieplasser {
     border-top: solid black;
     border-width: 0.01em;
-    }
-    .oHeader, .oBachelor {
-        margin-left: 5%;
-    }
-    
+  }
+  .oHeader,
+  .oBachelor {
+    margin-left: 5%;
+  }
 }
 
 .innsikt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    max-width: 40%;
-    min-width: 600px;
-    margin: 3% auto;
-    padding: 20px;
-    font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  max-width: 40%;
+  min-width: 600px;
+  margin: 3% auto;
+  padding: 20px;
+  font-size: 23px;
 }
 
 @media screen and (max-width: 600px) {
-    .innsikt {
-        min-width: fit-content;
-    }
+  .innsikt {
+    min-width: fit-content;
+  }
 }
-
-
 
 /* ------------------------------------------ */
 
