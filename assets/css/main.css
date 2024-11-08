@@ -328,7 +328,7 @@ article {
   text-decoration: none;
   color: #222;
   padding: 1.1875rem 1.875rem 1.1875rem 0;
-  background-image: url(/images/arrow-right.svg);
+  /* background-image: url(/images/arrow-right.svg); */
   background-repeat: no-repeat;
   background-position: center right 50px;
   transition: 0.1s ease-in-out;
