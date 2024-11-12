@@ -8,20 +8,20 @@
 
 header {
   width: 100%;
-
+  
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 10% auto 1fr auto 10%; /* Navbar takes up available space */
   justify-items: start; /* Navbar is aligned left in the header */
   gap: 0;
-
+  
   background-color: rgb(140, 240, 240);
 }
 
 #logoWrapper {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-
+  
   display: flex;
   align-items: center;
 }
@@ -33,7 +33,7 @@ header {
 
 nav {
   grid-column: 3 / 4;
-
+  
   display: flex;
 }
 
@@ -299,57 +299,7 @@ body {
 .studyinfo-sub-details p {
   margin-left: 1.5em;
 }
-/* Headings */
-h2 {
-  font-size: 2rem;
-}
-/* Article Styling */
-article {
-  margin: auto;
-  padding: 0;
-  max-width: 600px;
-}
 
-/* Other Studies Section */
-.other-studies ul {
-  padding: 0;
-  list-style: none;
-}
-
-.other-studies span {
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-
-.other-studies a {
-  border-top: 0.0625rem solid #e2e2e2;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-  color: #222;
-  padding: 1.1875rem 1.875rem 1.1875rem 0;
-  /* background-image: url(/images/arrow-right.svg); */
-  background-repeat: no-repeat;
-  background-position: center right 50px;
-  transition: 0.1s ease-in-out;
-}
-
-.other-studies a:hover {
-  background-position: center right 43px;
-}
-
-.other-studies ul ul li {
-  display: inline;
-}
-
-.other-studies ul ul > li:not(:last-child)::after {
-  content: "|";
-  padding: 0 8px;
-}
-
-.border-bottom {
-  border-bottom: 0.0625rem solid #e2e2e2;
-}
 
 footer {
   /* set size and color of footer */
@@ -566,29 +516,6 @@ footer {
 }
 
 /* ------------------------------------------ */
-
-/* Root Variables */
-:root {
-  /* Base text color and font family */
-  color: #222222;
-  font-family: Futura, Helvetica, sans-serif;
-  text-rendering: optimizeLegibility;
-}
-
-/* Headings */
-h2 {
-  /* Font size for h2 headings */
-  font-size: 2rem;
-}
-
-/* Must Delete!!! */
-/* section Styling */
-section {
-  /* Center the article and set max width */
-  margin: auto;
-  padding: 0;
-  width: 80vw;
-}
 
 /* Other Studies Section */
 .other-studies ul {
