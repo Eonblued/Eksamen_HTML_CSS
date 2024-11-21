@@ -5,6 +5,7 @@
   /* Base text color and font family */
   font-family: Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 
   --primary-color: #2c3e50;
   --secondary-color: #add8e6;
@@ -870,6 +871,52 @@ main > article > * {
   padding-right: 5px;
   padding-left: 20px;
   vertical-align: center;
+}
+
+/* To the top button 
+#to-the-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #7ca5d1;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s, transform 0.3s;
+}
+*/
+#to-the-top-button {
+  display: inline-flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  align-items: center;
+  background-color: var(--background-color);
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  text-align: center;
+  will-change: transform, opacity;
+}
+
+#to-the-top-button:hover {
+  color: var(--background-color);
+  background: var(--hover-background-color);
 }
 
 /* ACTIVITY CSS */
