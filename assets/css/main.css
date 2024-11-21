@@ -888,12 +888,11 @@ main > article > * {
   cursor: pointer;
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.5px;
   height: 48px;
-  justify-content: center;
   max-width: 100%;
-  overflow: visible;
   padding: 2px 24px;
+  letter-spacing: 0.5px;
+  justify-content: center;
   text-align: center;
 }
 
