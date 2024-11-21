@@ -886,15 +886,15 @@ main > article > * {
   box-sizing: border-box;
   color: #3c4043;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 520;
+  letter-spacing: 0.5px;
   height: 48px;
   justify-content: center;
   max-width: 100%;
   overflow: visible;
   padding: 2px 24px;
   text-align: center;
-  will-change: transform, opacity;
 }
 
 #to-the-top-button:hover {
